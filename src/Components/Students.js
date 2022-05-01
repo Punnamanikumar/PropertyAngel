@@ -17,9 +17,9 @@ const Students = () => {
   // console.log("Students:",students);
   
   const handelDelete=(stu)=>{
-    var newStudents=students.filter((students)=>students.id!=stu);
+    var newStudents=students.filter((students)=>students.id!==stu);
     setStudents(newStudents);
-    console.log("newww",students)
+    // console.log("newww",students)
   }
 
   return (
